@@ -10,20 +10,11 @@ namespace CRUDProductCatalog.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> ExpedienteList()
-        {
-            return View();
-        }
-
-
-
-
-
-
-
-
-
+        public IActionResult ExpedienteList()
+    {
+        return View();
     }
-
+    }
+    
     
 }

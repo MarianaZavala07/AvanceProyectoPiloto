@@ -1,0 +1,39 @@
+@model ExpedienteModel
+
+@{
+    ViewData["Title"] = "Editar Expediente";
+    
+}
+
+<div class="text-center">
+    <h1 class="display-2">Editar Expediente</h1>  
+</div>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-controller="Expedientes" asp-action="ExpedienteEdit">
+    <div class="mb-3">
+        <label asp-for="Paciente" class="form-label">Nombre</label>
+        <input type="text" class="form-control" asp-for="Paciente" placeholder="Escriba el Nombre del Paciente" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Diagnostico" class="form-label">Diagnostico</label>
+        <input type="text" class="form-control" asp-for="Diagnostico" placeholder="Escriba el Diagnostico" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Descripcion" class="form-label">Correo</label>
+        <input type="text" class="form-control" asp-for="Descripcion" placeholder="Describa su consulta" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Fecha" class="form-label">Cuota</label>
+        <input type="text" class="form-control" asp-for="Fecha" placeholder="Escriba su fecha de naciemiento" />
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-controller="Expediente" asp-action="ExpedienteList" class="btn btn-secundary mb-3">Regresar</a>
+</form>

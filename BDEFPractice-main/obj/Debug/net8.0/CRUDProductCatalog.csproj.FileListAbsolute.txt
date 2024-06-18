@@ -271,3 +271,4 @@ C:\Users\Merry\Downloads\BDEFPractice-main\BDEFPractice-main\obj\Debug\net8.0\re
 C:\Users\Merry\Downloads\BDEFPractice-main\BDEFPractice-main\obj\Debug\net8.0\CRUDProductCatalog.pdb
 C:\Users\Merry\Downloads\BDEFPractice-main\BDEFPractice-main\obj\Debug\net8.0\CRUDProductCatalog.genruntimeconfig.cache
 C:\Users\Merry\Downloads\BDEFPractice-main\BDEFPractice-main\obj\Debug\net8.0\ref\CRUDProductCatalog.dll
+C:\Users\Merry\Downloads\BDEFPractice-main\BDEFPractice-main\obj\Debug\net8.0\CRUDProductCatalog.sourcelink.json
